@@ -1,4 +1,4 @@
-````markdown
+
 # Lost & Found – спецификация модели и план реализации (TJV)
 
 Проект: **сервис для работы с потерянными вещами** (Lost & Found).  
@@ -123,7 +123,7 @@ Output:
     - связаны с Category.name = :categoryName
     - foundAt BETWEEN :from AND :to
     - status = FOUND
-````
+
 
 JPQL-псевдокод:
 
