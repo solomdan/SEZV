@@ -67,19 +67,19 @@
 
 **Поля:**
 
-| Поле             | Тип                      | Описание                                                   |
-|------------------|--------------------------|------------------------------------------------------------|
-| `id`             | `Long` (PK)              | Идентификатор заявки                                      |
-| `item`           | `LostItem` (FK)          | Вещь, к которой относится заявка                          |
-| `requesterName`  | `String`                 | Имя человека, подавшего заявку                            |
-| `requesterEmail` | `String`                 | Email                                                      |
-| `requesterPhone` | `String`                 | Телефон                                                    |
-| `status`         | `ReturnRequestStatus`    | `PENDING`, `APPROVED`, `REJECTED`, `COMPLETED`, `CANCELLED` |
-| `comment`        | `String` / `Text`        | Описание/доказательства, почему это его вещь              |
-| `fulfillmentType`| `FulfillmentType`        | `PICKUP`, `DELIVERY_DOMESTIC`, `DELIVERY_INTERNATIONAL`   |
-| `shippingAddress`| `String` (nullable)      | Адрес доставки (если выбран delivery)                     |
-| `createdAt`      | `LocalDateTime`          | Дата создания заявки                                      |
-| `processedAt`    | `LocalDateTime` (nullable)| Дата обработки (approve/reject/complete)                 |
+| Поле              | Тип                        | Описание                                                    |
+| ----------------- | -------------------------- | ----------------------------------------------------------- |
+| `id`              | `Long` (PK)                | Идентификатор заявки                                        |
+| `item`            | `LostItem` (FK)            | Вещь, к которой относится заявка                            |
+| `requesterName`   | `String`                   | Имя человека, подавшего заявку                              |
+| `requesterEmail`  | `String`                   | Email                                                       |
+| `requesterPhone`  | `String`                   | Телефон                                                     |
+| `status`          | `ReturnRequestStatus`      | `PENDING`, `APPROVED`, `REJECTED`, `COMPLETED`, `CANCELLED` |
+| `comment`         | `String` / `Text`          | Описание/доказательства, почему это его вещь                |
+| `fulfillmentType` | `FulfillmentType`          | `PICKUP`, `DELIVERY_DOMESTIC`, `DELIVERY_INTERNATIONAL`     |
+| `shippingAddress` | `String` (nullable)        | Адрес доставки (если выбран delivery)                       |
+| `createdAt`       | `LocalDateTime`            | Дата создания заявки                                        |
+| `processedAt`     | `LocalDateTime` (nullable) | Дата обработки (approve/reject/complete)                    |
 
 **Связи:**
 
