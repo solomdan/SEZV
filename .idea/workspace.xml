@@ -1,68 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d93c579-38a8-472a-a001-bb5b16c1563e" name="Changes" comment="" />
+    <list default="true" id="022bf4e2-2f5d-45b2-a851-27dd89713b3b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/sezv/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sezv/domain/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sezv/entities/LostItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sezv/domain/entities/LostItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sezv/entities/ReturnRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sezv/domain/entities/ReturnRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sezv/entities/enums/FoundIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sezv/domain/enums/FoundIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sezv/entities/enums/FulfillmentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sezv/domain/enums/FulfillmentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sezv/entities/enums/LostItemStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sezv/domain/enums/LostItemStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sezv/entities/enums/ReturnRequestStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sezv/domain/enums/ReturnRequestStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.obsidian/workspace.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "solomdan"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/solomdan/SEZV.git",
-    "accountId": "a9e0bd07-86a3-428a-933e-b915d4b83f7a"
-  }
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="$USER_HOME$/.gradle/wrapper/dists/gradle-8.14.3-bin/cv11ve7ro1n3o1j4so8xd9n66/gradle-8.14.3" javaHome="$USER_HOME$/.jdks/ms-21.0.8" gradleVersion="8.14.3" />
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="36cS3KTMOFS3xRBrIWumKbg78wb" />
+  <component name="ProjectId" id="35ANkftpgEUkuqmLawuEbikzkya" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/solomdan/SEZV/SEZV&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/solomdan/gitClones/b251-server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SezvApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="SEZV.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sezv.SezvApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9d93c579-38a8-472a-a001-bb5b16c1563e" name="Changes" comment="" />
-      <created>1765304165359</created>
+      <changelist id="022bf4e2-2f5d-45b2-a851-27dd89713b3b" name="Changes" comment="" />
+      <created>1762549060797</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1765304165359</updated>
-      <workItem from="1765304166474" duration="19000" />
-      <workItem from="1765868825071" duration="128000" />
+      <updated>1762549060797</updated>
+      <workItem from="1762549061982" duration="275000" />
+      <workItem from="1762601160653" duration="936000" />
+      <workItem from="1762766197728" duration="614000" />
+      <workItem from="1762789976319" duration="5000" />
+      <workItem from="1763035350903" duration="109000" />
+      <workItem from="1763123501318" duration="525000" />
+      <workItem from="1765304186439" duration="146000" />
+      <workItem from="1765304735323" duration="4227000" />
+      <workItem from="1765313964827" duration="531000" />
+      <workItem from="1767957430299" duration="2656000" />
+      <workItem from="1768032890707" duration="5780000" />
+      <workItem from="1768052254952" duration="4533000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

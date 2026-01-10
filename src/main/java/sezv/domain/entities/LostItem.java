@@ -1,4 +1,4 @@
-package sezv.entities;
+package sezv.domain.entities;
 
 
 import jakarta.persistence.*;
@@ -6,8 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import sezv.entities.enums.FoundIn;
-import sezv.entities.enums.LostItemStatus;
+import sezv.domain.enums.FoundIn;
+import sezv.domain.enums.LostItemStatus;
 
 import java.time.LocalDateTime;
 import java.util.List;

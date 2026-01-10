@@ -1,8 +1,8 @@
-package sezv.entities;
+package sezv.domain.entities;
 
 import jakarta.persistence.*;
-import sezv.entities.enums.ReturnRequestStatus;
-import sezv.entities.enums.FulfillmentType;
+import sezv.domain.enums.ReturnRequestStatus;
+import sezv.domain.enums.FulfillmentType;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
