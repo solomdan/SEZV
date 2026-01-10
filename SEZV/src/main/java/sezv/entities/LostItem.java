@@ -24,6 +24,7 @@ public class LostItem {
     private Long  id;
     private String title;
     private String description;
+    @Enumerated(EnumType.STRING)
     private FoundIn foundIn;
     private String routeNumber;
     private String vehicleNumber;
@@ -38,4 +39,23 @@ public class LostItem {
 
     @OneToMany(mappedBy = "ReturnRequestTable")
     List<ReturnRequest> returnRequestList;
+
+    @Override
+    public String toString() {
+        return "LostItem{"
+                + "id=" + id
+                + ", title='" + title + '\''
+                + ", description='" + description + '\''
+                + ", foundIn=" + foundIn
+                + ", routeNumber='" + routeNumber + '\''
+                + ", vehicleNumber='" + vehicleNumber + '\''
+                + ", foundAt=" + foundAt
+                + ", storageLocation='" + storageLocation + '\''
+                + ", status=" + status
+                + ", createdAt=" + createdAt
+                + ", updatedAt=" + updatedAt
+                + ", categorySet=" + categorySet
+                + ", returnRequestList=" + returnRequestList
+                + '}';
+    }
 }

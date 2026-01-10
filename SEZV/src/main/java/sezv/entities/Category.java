@@ -24,4 +24,13 @@ public class Category {
 
     @ManyToMany(mappedBy = "LostItemTable")
     Set<LostItem> lostItemSet;
+
+    public String toString() {
+        return "Category{"
+                + "id=" + id
+                + ", name='" + name + '\''
+                + ", createdAt=" + createdAt
+                + ", lostItemSet=" + lostItemSet
+                + '}';
+    }
 }
